@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliyunServer", "Source\AliyunServer\AliyunServer.csproj", "{06163EF5-1D6C-45CB-B6E1-D1E130770E21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Depends", "Depends", "{75B42137-FF5E-4B51-A5CE-0084971FA6EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aliyun-net-sdk-core", "Depends\aliyun-net-sdk-core\aliyun-net-sdk-core.csproj", "{BB84CECB-295D-4772-A669-3726E511CCFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aliyun-net-sdk-alidns", "Depends\aliyun-net-sdk-alidns\aliyun-net-sdk-alidns.csproj", "{A3A305DD-6CB0-421B-8DC5-314B89C752B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06163EF5-1D6C-45CB-B6E1-D1E130770E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06163EF5-1D6C-45CB-B6E1-D1E130770E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06163EF5-1D6C-45CB-B6E1-D1E130770E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06163EF5-1D6C-45CB-B6E1-D1E130770E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB84CECB-295D-4772-A669-3726E511CCFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB84CECB-295D-4772-A669-3726E511CCFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB84CECB-295D-4772-A669-3726E511CCFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB84CECB-295D-4772-A669-3726E511CCFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3A305DD-6CB0-421B-8DC5-314B89C752B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3A305DD-6CB0-421B-8DC5-314B89C752B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3A305DD-6CB0-421B-8DC5-314B89C752B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3A305DD-6CB0-421B-8DC5-314B89C752B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB84CECB-295D-4772-A669-3726E511CCFA} = {75B42137-FF5E-4B51-A5CE-0084971FA6EA}
+		{A3A305DD-6CB0-421B-8DC5-314B89C752B1} = {75B42137-FF5E-4B51-A5CE-0084971FA6EA}
+	EndGlobalSection
+EndGlobal
